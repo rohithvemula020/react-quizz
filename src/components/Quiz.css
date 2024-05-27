@@ -1,0 +1,51 @@
+.card-quiz {
+  background-color:seashell; /* Card background color */
+  border-radius: 10px; /* Card border radius */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Card shadow */
+  padding: 20px; /* Padding inside the card */
+}
+
+.card-body-quiz {
+  font-size: 1.2em; /* Font size for card content */
+}
+
+.card-title-quiz {
+  font-size: 1.4em; /* Font size for the title */
+  font-weight: bold; /* Bold font for the title */
+  margin-bottom: 20px; /* Bottom margin for the title */
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spacing between options */
+}
+
+.option-button {
+  padding: 10px 20px; /* Padding for the option button */
+  border: 1px solid #ccc; /* Border for the option button */
+  border-radius: 5px; /* Border radius for the option button */
+  background-color: #f9f9f9; /* Background color for the option button */
+  cursor: pointer; /* Cursor style for the option button */
+  transition: background-color 0.3s, border-color 0.3s; /* Transition for button hover effect */
+}
+
+.option-button:hover {
+  background-color: #e9e9e9; /* Background color on hover */
+  border-color: #999; /* Border color on hover */
+}
+
+.option-button.selected {
+  background-color: #4caf50; /* Background color for selected option */
+  border-color: #4caf50; /* Border color for selected option */
+  color: #fff; /* Text color for selected option */
+}
+
+/* Time left text */
+.mt-3 {
+  margin-top: 10px; /* Top margin */
+  font-size: 1em; /* Font size */
+}
+
+
+
